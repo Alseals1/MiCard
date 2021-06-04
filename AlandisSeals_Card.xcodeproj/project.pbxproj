@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F24FDBE72669BAB3000BBB6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24FDBE62669BAB3000BBB6A /* AppDelegate.swift */; };
+		F24FDBE92669BAB3000BBB6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24FDBE82669BAB3000BBB6A /* SceneDelegate.swift */; };
+		F24FDBEB2669BAB3000BBB6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24FDBEA2669BAB3000BBB6A /* ContentView.swift */; };
+		F24FDBED2669BAB5000BBB6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24FDBEC2669BAB5000BBB6A /* Assets.xcassets */; };
+		F24FDBF02669BAB5000BBB6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24FDBEF2669BAB5000BBB6A /* Preview Assets.xcassets */; };
+		F24FDBF32669BAB5000BBB6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24FDBF12669BAB5000BBB6A /* LaunchScreen.storyboard */; };
+		F24FDBFD2669BDC8000BBB6A /* Satisfy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F24FDBFC2669BDC8000BBB6A /* Satisfy-Regular.ttf */; };
+		F24FDC012669CBB9000BBB6A /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24FDC002669CBB9000BBB6A /* InfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F24FDBE32669BAB3000BBB6A /* AlandisSeals_Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlandisSeals_Card.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24FDBE62669BAB3000BBB6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F24FDBE82669BAB3000BBB6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F24FDBEA2669BAB3000BBB6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F24FDBEC2669BAB5000BBB6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F24FDBEF2669BAB5000BBB6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F24FDBF22669BAB5000BBB6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F24FDBF42669BAB5000BBB6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F24FDBFC2669BDC8000BBB6A /* Satisfy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Satisfy-Regular.ttf"; path = "../../../../../Downloads/Satisfy/Satisfy-Regular.ttf"; sourceTree = "<group>"; };
+		F24FDC002669CBB9000BBB6A /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F24FDBE02669BAB3000BBB6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F24FDBDA2669BAB3000BBB6A = {
+			isa = PBXGroup;
+			children = (
+				F24FDBE52669BAB3000BBB6A /* AlandisSeals_Card */,
+				F24FDBE42669BAB3000BBB6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F24FDBE42669BAB3000BBB6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F24FDBE32669BAB3000BBB6A /* AlandisSeals_Card.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F24FDBE52669BAB3000BBB6A /* AlandisSeals_Card */ = {
+			isa = PBXGroup;
+			children = (
+				F24FDBFB2669BDA0000BBB6A /* fonts */,
+				F24FDBE62669BAB3000BBB6A /* AppDelegate.swift */,
+				F24FDBE82669BAB3000BBB6A /* SceneDelegate.swift */,
+				F24FDBEA2669BAB3000BBB6A /* ContentView.swift */,
+				F24FDC002669CBB9000BBB6A /* InfoView.swift */,
+				F24FDBEC2669BAB5000BBB6A /* Assets.xcassets */,
+				F24FDBF12669BAB5000BBB6A /* LaunchScreen.storyboard */,
+				F24FDBF42669BAB5000BBB6A /* Info.plist */,
+				F24FDBEE2669BAB5000BBB6A /* Preview Content */,
+			);
+			path = AlandisSeals_Card;
+			sourceTree = "<group>";
+		};
+		F24FDBEE2669BAB5000BBB6A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F24FDBEF2669BAB5000BBB6A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F24FDBFB2669BDA0000BBB6A /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F24FDBFC2669BDC8000BBB6A /* Satisfy-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F24FDBE22669BAB3000BBB6A /* AlandisSeals_Card */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24FDBF72669BAB5000BBB6A /* Build configuration list for PBXNativeTarget "AlandisSeals_Card" */;
+			buildPhases = (
+				F24FDBDF2669BAB3000BBB6A /* Sources */,
+				F24FDBE02669BAB3000BBB6A /* Frameworks */,
+				F24FDBE12669BAB3000BBB6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlandisSeals_Card;
+			productName = AlandisSeals_Card;
+			productReference = F24FDBE32669BAB3000BBB6A /* AlandisSeals_Card.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F24FDBDB2669BAB3000BBB6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F24FDBE22669BAB3000BBB6A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F24FDBDE2669BAB3000BBB6A /* Build configuration list for PBXProject "AlandisSeals_Card" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F24FDBDA2669BAB3000BBB6A;
+			productRefGroup = F24FDBE42669BAB3000BBB6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F24FDBE22669BAB3000BBB6A /* AlandisSeals_Card */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F24FDBE12669BAB3000BBB6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24FDBF32669BAB5000BBB6A /* LaunchScreen.storyboard in Resources */,
+				F24FDBFD2669BDC8000BBB6A /* Satisfy-Regular.ttf in Resources */,
+				F24FDBF02669BAB5000BBB6A /* Preview Assets.xcassets in Resources */,
+				F24FDBED2669BAB5000BBB6A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F24FDBDF2669BAB3000BBB6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24FDC012669CBB9000BBB6A /* InfoView.swift in Sources */,
+				F24FDBE72669BAB3000BBB6A /* AppDelegate.swift in Sources */,
+				F24FDBE92669BAB3000BBB6A /* SceneDelegate.swift in Sources */,
+				F24FDBEB2669BAB3000BBB6A /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F24FDBF12669BAB5000BBB6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F24FDBF22669BAB5000BBB6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F24FDBF52669BAB5000BBB6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F24FDBF62669BAB5000BBB6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F24FDBF82669BAB5000BBB6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AlandisSeals_Card/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AlandisSeals_Card/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.alandisseals.AlandisSeals-Card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F24FDBF92669BAB5000BBB6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AlandisSeals_Card/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AlandisSeals_Card/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.alandisseals.AlandisSeals-Card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F24FDBDE2669BAB3000BBB6A /* Build configuration list for PBXProject "AlandisSeals_Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24FDBF52669BAB5000BBB6A /* Debug */,
+				F24FDBF62669BAB5000BBB6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24FDBF72669BAB5000BBB6A /* Build configuration list for PBXNativeTarget "AlandisSeals_Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24FDBF82669BAB5000BBB6A /* Debug */,
+				F24FDBF92669BAB5000BBB6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F24FDBDB2669BAB3000BBB6A /* Project object */;
+}
